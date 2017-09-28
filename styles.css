@@ -41,3 +41,15 @@ section {
 	height: auto;
 	float: left;
 }
+
+.section2.columns1 {
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+.section2.columns2 {
+	width: 20%;
+	height: auto;
+	float: left;
+}

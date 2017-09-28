@@ -5,6 +5,10 @@ body {
 	font-family: 'Oswald', sans-serif;
 }
 
+a:link {
+	color: yellow;
+}
+
 header {
 	text-align: center;
 	overflow: auto;
@@ -24,6 +28,26 @@ header {
 	width: 100%;
 	height: auto;
 	z-index: -1;
+}
+
+nav {
+	width: 100%;
+	margin: 0px auto;
+}
+
+ul.nav {
+	list-style-type: none;
+	padding: 0px;
+}
+
+li.nav {
+	display: inline;
+}
+
+li.nav a {
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
 }
 
 section {

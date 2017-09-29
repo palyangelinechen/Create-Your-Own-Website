@@ -51,6 +51,7 @@ li.nav a {
 }
 
 section {
+	margin: 10px;
 	overflow: auto;
 }
 
@@ -78,10 +79,14 @@ section {
 	float: left;
 }
 
-footer {
+.heading {
 	text-align: center;
 }
 
-.heading {
+.paragraph {
+	padding: 10px;
+}
+
+footer {
 	text-align: center;
 }

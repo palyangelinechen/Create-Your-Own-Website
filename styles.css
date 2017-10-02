@@ -24,7 +24,7 @@ header {
 	position: absolute;
 }
 
-.image {
+.header.image {
 	width: 100%;
 	height: auto;
 	z-index: -1;
@@ -33,11 +33,18 @@ header {
 nav {
 	width: 100%;
 	margin: 0px auto;
+	overflow: auto;
+}
+
+.nav.image {
+	width: 5%;
+	height: auto;
 }
 
 ul.nav {
 	list-style-type: none;
 	padding: 0px;
+	float: right;
 }
 
 li.nav {
@@ -67,16 +74,21 @@ section {
 	float: left;
 }
 
-.section2.columns1 {
-	width: 25%;
-	height: auto;
-	float: left;
+.section2 {
+	display: table;
+	overflow: auto;
 }
 
-.section2.columns2 {
-	width: 20%;
-	height: auto;
-	float: left;
+div.table {
+	text-align: center;
+	display: table-cell;
+	width: 25%;
+	padding: 0px 60px;
+}
+
+ol.table {
+	display: table-cell;
+	width: 25%;
 }
 
 .heading {
@@ -85,6 +97,11 @@ section {
 
 .paragraph {
 	padding: 10px;
+}
+
+.video {
+	display: block;
+	margin: auto;
 }
 
 footer {
